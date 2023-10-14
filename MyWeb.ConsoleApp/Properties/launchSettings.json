@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "MyWeb.ConsoleApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:15975;http://localhost:15976"
+    }
+  }
+}

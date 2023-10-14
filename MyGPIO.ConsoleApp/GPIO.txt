@@ -1,0 +1,44 @@
+using System;
+using System.Device.Gpio;
+using System.Diagnostics;
+using System.Threading;
+ 
+namespace devMobile.NetCore.ConsoleGPIO1
+{
+    class Program
+    {
+        const int ButtonPinNumber = 5;
+        const int LedPinNumber = 16;
+ 
+        static void Main(string[] args)
+        {
+            try
+            {
+                GpioController controller = new GpioController(PinNumberingScheme.Logical);
+ 
+                controller.OpenPin(ButtonPinNumber, PinMode.InputPullUp);
+                controller.OpenPin(LedPinNumber, PinMode.Output);
+ 
+                while (true)
+                {
+                    if (controller.Read(ButtonPinNumber) == PinValue.High)
+                    {
+                        if (controller.Read(LedPinNumber) == PinValue.Low)
+                        {
+                            controller.Write(LedPinNumber, PinValue.High);
+                        }
+                        else
+                        {
+                            controller.Write(LedPinNumber, PinValue.Low);
+                        }
+                    }
+                    Thread.Sleep(100);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+    }
+}
