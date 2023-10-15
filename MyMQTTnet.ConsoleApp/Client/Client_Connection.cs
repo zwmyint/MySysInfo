@@ -12,8 +12,6 @@ namespace MyMQTTnet.ConsoleApp.Client
     public static class Client_Connection
     {
         //
-
-
         public static async Task Connect_Client()
         {
             /*
