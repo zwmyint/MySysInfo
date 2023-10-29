@@ -35,11 +35,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWebApi.Minimal3", "MyWebA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMQTT.ConsoleApp", "MyMQTT.ConsoleApp\MyMQTT.ConsoleApp.csproj", "{02BF2A08-C9B1-4F72-B972-87F533A913B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMQTTnet.ConsoleApp", "MyMQTTnet.ConsoleApp\MyMQTTnet.ConsoleApp.csproj", "{07773F24-7190-4DF9-9E6A-738E0122982C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMQTTnet.ConsoleApp", "MyMQTTnet.ConsoleApp\MyMQTTnet.ConsoleApp.csproj", "{07773F24-7190-4DF9-9E6A-738E0122982C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalc.ConsoleApp", "MyCalc.ConsoleApp\MyCalc.ConsoleApp.csproj", "{6FA3D8CE-F316-461D-9E86-8BC130B3A14D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCalc.ConsoleApp", "MyCalc.ConsoleApp\MyCalc.ConsoleApp.csproj", "{6FA3D8CE-F316-461D-9E86-8BC130B3A14D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalc.Lib", "MyCalc.Lib\MyCalc.Lib.csproj", "{F5E9D0CF-C4D2-4000-B076-37F065C5B068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyCalc.Lib", "MyCalc.Lib\MyCalc.Lib.csproj", "{F5E9D0CF-C4D2-4000-B076-37F065C5B068}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyHangfire2.ConsoleApp", "MyHangfire2.ConsoleApp\MyHangfire2.ConsoleApp.csproj", "{A327C708-3F59-4F77-8483-1F981D57E3CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAttributes.ConsoleApp", "MyAttributes.ConsoleApp\MyAttributes.ConsoleApp.csproj", "{506A89F6-BAD1-4700-9C12-E3D07032A642}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{F5E9D0CF-C4D2-4000-B076-37F065C5B068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5E9D0CF-C4D2-4000-B076-37F065C5B068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5E9D0CF-C4D2-4000-B076-37F065C5B068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A327C708-3F59-4F77-8483-1F981D57E3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A327C708-3F59-4F77-8483-1F981D57E3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A327C708-3F59-4F77-8483-1F981D57E3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A327C708-3F59-4F77-8483-1F981D57E3CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{506A89F6-BAD1-4700-9C12-E3D07032A642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506A89F6-BAD1-4700-9C12-E3D07032A642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506A89F6-BAD1-4700-9C12-E3D07032A642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506A89F6-BAD1-4700-9C12-E3D07032A642}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
