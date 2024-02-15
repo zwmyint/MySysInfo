@@ -82,7 +82,8 @@ app.MapGet("/todoitems/{id}", async (int id, TodoGroupDbContext db) =>
 // -------------------------------------
 
 // -------------------------------------
-
+// GET UTC
+app.MapGet("time/utc", () => Results.Ok(DateTime.UtcNow));
 
 
 
